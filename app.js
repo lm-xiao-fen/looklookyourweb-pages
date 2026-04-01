@@ -1,5 +1,5 @@
 // 改成你的 Worker URL
-const API_URL = "https://your-worker.xxx.workers.dev/api/status";
+const API_URL = "https://dfgg.de5.net/api/status";
 
 async function load() {
   const tbody = document.getElementById("table-body");
