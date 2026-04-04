@@ -17,7 +17,7 @@ async function load() {
       const statusClass = site.status === "UP" ? "status-up" : "status-down";
 
       tr.innerHTML = `
-        <td>${site.name}</td>
+        <td><a href="${site.url}" target="_blank">${site.name}</a></td>
         <td class="${statusClass}">${site.status}</td>
         <td>${site.latency ?? "-" } ms</td>
         <td>${formatTime(site.time)}</td>
